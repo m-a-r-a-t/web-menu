@@ -1,0 +1,16 @@
+{
+  "name": "kursach-system-adm",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "mkdir dist && copy .\\public\\presentation.pdf .\\dist\\ && parcel public/index.html --open ",
+    "build": "parcel build public/index.html && copy .\\public\\presentation.pdf .\\dist\\ && py .\\src\\utils\\replace_module_type.py && py .\\src\\utils\\new_folder_for_images.py",
+    "path": "py .\\src\\utils\\new_folder_for_images.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
