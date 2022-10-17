@@ -12,7 +12,7 @@ export default {
             pages,
         }
     },
-    template: `
+    template: /*html*/`
     <div   style="padding-right:0;word-break:break-all;width: 100%">
             <template v-for="page in pages">
                     <ContentPage  :content="{...page.content}" v-if="$route.fullPath == '/' + page.link"/>

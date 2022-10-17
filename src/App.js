@@ -15,8 +15,8 @@ export default {
     <div class=".container " style="height: 100vh;">
         <Header v-bind:age="5"/>
         <Navbar/>
-        <div class=".container " style="max-height: calc(100vh - 177px);height: 100%;">
-            <div class=" d-flex flex-row" style="max-height: calc(100vh - 177px);height: 100%;">
+        <div class=".container " style="max-height: calc(100vh - 232px);height: 100%;">
+            <div class=" d-flex flex-row" style="max-height: calc(100vh - 232px);height: 100%;">
                 <Content />
             </div>
         </div>
